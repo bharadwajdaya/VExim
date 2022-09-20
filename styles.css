@@ -11,7 +11,28 @@
   html {
     font-size: 62.5%;
   }
-  
+
+  .top-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+  } 
+  .top-section>img{
+    width: 6rem;
+    height: 6rem;
+  }
+  .ts__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 2rem;
+    justify-content: center;
+  }
+  .small_icon{
+    width: 1rem;
+  }
+
   .logo {
     font-size: 3.5rem;
     font-style: italic;
@@ -774,4 +795,28 @@
   border-radius: 25%;
   color: black;
   cursor: pointer;
+}
+.itm__btn:hover{
+  background: rgb(80, 117, 25);
+  padding: 0.7rem;
+  margin-top: 1.5rem;
+  color: white;
+  
+  cursor: pointer;
+}
+.products_sec{
+  margin-top: 7rem;
+}
+.products_sec__heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+@media (max-width: 800px) {
+  .items{
+    display: flex;
+    flex-direction: column;
+  }
 }
