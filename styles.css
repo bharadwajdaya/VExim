@@ -789,9 +789,15 @@
 .image__overlay:hover{
   opacity: 1;
 }
+.image__title{
+  font-weight: 200;
+  font-size: 4rem;
+  transform: translateY(-1rem);
+}
 .itm__btn{
-  background: greenyellow;
+  background: rgb(173, 177, 168);
   padding: 0.7rem;
+  transform: translateY(-1rem);
   border-radius: 25%;
   color: black;
   cursor: pointer;
@@ -814,6 +820,34 @@
   justify-content: center;
   font-size: 3rem;
 }
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  background: yellowgreen;
+}
+input{
+  padding: 0.2rem;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+.footer__enquiry{
+  display: flex;
+  flex-direction: column;
+}
+.footer__address{
+  display: flex;
+  align-items: center;
+  line-height: 3rem;
+  color: black;
+  font-size: 2rem;
+}
+
+
 @media (max-width: 800px) {
   .items{
     display: flex;
