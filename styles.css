@@ -10,6 +10,7 @@
   
   html {
     font-size: 62.5%;
+    background: #e8e8e8;
   }
 
   .top-section{
@@ -43,7 +44,12 @@
     cursor: pointer;
   }
   
-  
+  .flex__cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
   
   .p-2 {
     font-size: 4.5rem;
@@ -75,9 +81,12 @@
   .navbar-wrapper {
     width: 100%;
     height: 8rem;
-    border-bottom: 0.1rem solid #aaa;
+  }
+  .company_name{
     display: flex;
+    place-items: center;
     justify-content: center;
+    font-size: 4rem;
   }
   .navbar {
     width: 120rem;
@@ -113,14 +122,13 @@
   .nav-dropdown {
     width: 100%;
     height: 20rem;
-    background: linear-gradient(to top,rgba(5, 77, 37, 0.7),rgba(0, 119, 69, 0.6));
+    background: linear-gradient(to top,rgba(73, 73, 73, 0.7),rgba(0, 0, 0, 0.6));
     position: absolute;
     top: 8rem;
     left: 0;
     z-index: 100;
-    padding: 0 30rem;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     opacity: 0;
     visibility: hidden;
@@ -132,12 +140,18 @@
     display: flex;
     flex-direction: column;
   }
-  
+  .nav-dropdown-item:hover {
+    
+    cursor: pointer;
+  }
   .dropdown-heading {
     display: none;
   }
   
   .nav-dropdown-link-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 2rem;
     color: #fff;
   }
@@ -209,9 +223,7 @@
   
   /* Responsive */
   @media (max-width: 1500px) {
-    .nav-dropdown {
-      padding: 0 25rem;
-    }
+    
   
     .nav-dropdown-item {
       margin: 2rem 6rem;
@@ -367,7 +379,8 @@
   
     .change .line-2 {
       opacity: 0;
-      visibility: hidden;
+      
+      
     }
   
     .change .line-3 {
@@ -826,6 +839,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem;
+  padding: 2rem;
   background: yellowgreen;
 }
 input{
@@ -839,6 +853,10 @@ input{
 .footer__enquiry{
   display: flex;
   flex-direction: column;
+  width: 20%;
+}
+.footer__wid{
+  width: 100%;
 }
 .footer__address{
   display: flex;
@@ -846,6 +864,15 @@ input{
   line-height: 3rem;
   color: black;
   font-size: 2rem;
+}
+.btn{
+  margin-top: 1rem;
+  background: #000000;
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+  
 }
 
 
