@@ -49,6 +49,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
+    color: white;
   }
   
   .p-2 {
@@ -71,7 +72,7 @@
     width: 100%;
     background: linear-gradient(
         to top,
-        rgba(0, 224, 101, 0.7),
+        #006064,
         rgba(0, 119, 69, 0.6)
       );
     background-size: cover;
@@ -406,7 +407,7 @@
       left: -20rem;
       width: 20rem;
       height: 100vh;
-      background: linear-gradient(to bottom, #ff1212, #cf1c1c, #db3a3a);
+      background: linear-gradient(to bottom, #006064, #05787c, #05858a);
       flex-direction: column;
       padding-top: 2rem;
       z-index: 200;
@@ -840,7 +841,7 @@
   justify-content: space-between;
   padding: 1rem;
   padding: 2rem;
-  background: yellowgreen;
+  background: #006064;
 }
 input{
   padding: 0.2rem;
@@ -862,7 +863,7 @@ input{
   display: flex;
   align-items: center;
   line-height: 3rem;
-  color: black;
+  color: white;
   font-size: 2rem;
 }
 .btn{
