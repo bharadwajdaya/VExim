@@ -66,6 +66,12 @@
   .front-page {
     /* display: none; */
   }
+
+  .ts__link{
+    color: rgb(92, 92, 211);
+    text-decoration: underline;
+    cursor: pointer;
+  }
   
   /* Section 1 */
   .section-1 {
@@ -88,6 +94,8 @@
     place-items: center;
     justify-content: center;
     font-size: 4rem;
+    font-weight: 800;
+    color: #3f907f;
   }
   .navbar {
     width: 120rem;
@@ -139,11 +147,17 @@
     width: 25rem;
     margin: 2rem 10rem;
     display: flex;
+    place-items: center;
+    justify-content: center;
     flex-direction: column;
   }
   .nav-dropdown-item:hover {
-    
+    background: rgb(255, 255, 255);
     cursor: pointer;
+    border-radius: 5%;
+  }
+  .nav-dropdown-item:hover .nav-dropdown-link-1{
+    color: black;
   }
   .dropdown-heading {
     display: none;
@@ -156,6 +170,7 @@
     font-size: 2rem;
     color: #fff;
   }
+  
   
   .nav-dropdown-link-2 {
     font-size: 1.3rem;
