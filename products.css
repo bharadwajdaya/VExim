@@ -72,7 +72,7 @@
     text-decoration: underline;
     cursor: pointer;
   }
-  
+
   /* Section 1 */
   .section-1 {
     width: 100%;
@@ -789,6 +789,10 @@
     grid-gap: 2rem;
     grid-template-columns: repeat(4,1fr);
 }
+.product_des
+{
+    margin-bottom:3rem ;
+}
 .pro_des_heading{
     font-weight: 400;
     font-size: 4rem;
@@ -903,7 +907,7 @@ input{
 
 
 @media (max-width: 800px) {
-  .items{
+  .product_items{
     display: flex;
     flex-direction: column;
   }
